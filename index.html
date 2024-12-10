@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.46/moment-timezone-with-data-1970-2030.min.js"></script>
+
     <title>World Clock by Felicia Audrey</title>
   </head>
   <body>
@@ -12,31 +15,25 @@
 
       <select>
         <option value="">Select a city..</option>
-        <option value="">Los Angeles, USA</option>
-        <option value="">London, UK</option>
-        <option value="">Tokyo, Japan</option>
+        <option value="">Los Angeles 🇺🇸</option>
+        <option value="">London 🇬🇧</option>
+        <option value="">Tokyo 🇯🇵</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="jakarta">
         <div>
-          <h2>Jakarta, Indonesia</h2>
-          <div class="date">09 December 2024</div>
+          <h2>Jakarta, 🇮🇩</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">
-          15:56:28
-          <small> AM </small>
-        </div>
+        <div class="time"></div>
       </div>
 
-      <div class="city">
+      <div class="city" id="brussels">
         <div>
-          <h2>Seoul, South Korea</h2>
-          <div class="date">09 December 2024</div>
+          <h2>Brussels, 🇧🇪</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">
-          15:56:28
-          <small> AM </small>
-        </div>
+        <div class="time"></div>
       </div>
     </div>
     <footer>
